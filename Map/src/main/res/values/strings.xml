@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InteractivityMap</string>
+    <string name="title_activity_maps">InterMap</string>
+
+    <!-- Tabs -->
+    <string name="map_tab">Map</string>
+    <string name="markers_tab">Markers</string>
+
+    <!-- Hints -->
+    <string name="markerTitle_hint">Title</string>
+    <string name="markerDescription_hint">Description</string>
+
+    <!-- Buttons -->
+    <string name="ok_button">Ok</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Actions -->
+    <string name="done_action">Done</string>
+    <string name="edit_action">Edit</string>
+
+    <!-- Fragment tags-->
+    <string name="fragmentTag_map">fragmentTag_map</string>
+    <string name="fragmentTag_markers">fragmentTag_markers</string>
+
+    <!-- User messages -->
+    <string name="emptyTitle_message">Please enter marker title</string>
+</resources>

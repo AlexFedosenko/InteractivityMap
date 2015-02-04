@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_markers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider_grey"
+        android:background="@drawable/base_dark_background"
+        android:cacheColorHint="@android:color/transparent"/>

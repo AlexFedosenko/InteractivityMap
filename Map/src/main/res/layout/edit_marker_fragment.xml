@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_editMarker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/layout_editMarker_paddingHorizontal"
+        android:paddingRight="@dimen/layout_editMarker_paddingHorizontal"
+        android:background="@drawable/base_dark_background"
+        android:orientation="vertical">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <EditText
+                    android:id="@+id/edt_markerTitle"
+                    android:layout_marginTop="@dimen/edt_markerTitle_marginTop"
+                    style="@style/avoxEditText"
+                    android:hint="@string/markerTitle_hint"/>
+
+            <EditText
+                    android:id="@+id/edt_markerDescription"
+                    android:layout_marginTop="@dimen/edt_markerDescription_marginTop"
+                    style="@style/avoxEditText"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:hint="@string/markerDescription_hint"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/layout_buttons_marginTop"
+            android:layout_marginBottom="@dimen/layout_buttons_marginBottom">
+
+        <Button
+                android:id="@+id/btn_ok"
+                style="@style/text_shadow"
+                android:layout_height="@dimen/layout_buttons_layoutHeight"
+                android:layout_width="@dimen/layout_buttons_layoutWidth"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_selector"
+                android:text="@string/ok_button"/>
+
+        <Button
+                android:id="@+id/btn_cancel"
+                style="@style/text_shadow"
+                android:layout_height="@dimen/layout_buttons_layoutHeight"
+                android:layout_width="@dimen/layout_buttons_layoutWidth"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_selector"
+                android:text="@string/cancel_button"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

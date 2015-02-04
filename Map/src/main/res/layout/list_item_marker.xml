@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_marker"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/listItem_marker_layoutHeight"
+              android:orientation="horizontal">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/pressed_selector"
+            android:layout_gravity="start|center"
+            android:gravity="start|center"
+            android:layout_marginLeft="@dimen/listItem_marker_marginLeft"
+            android:orientation="vertical">
+
+
+        <TextView
+                android:id="@+id/text_markerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/listItem_markerTitle_textSize"
+                android:textColor="@color/listItem_markerTitle_textColor"
+                android:includeFontPadding="false"/>
+
+        <TextView
+                android:id="@+id/text_markerDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/listItem_markerTitle_textSize"
+                android:textColor="@color/listItem_markerDescription_textColor"
+                android:includeFontPadding="false" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

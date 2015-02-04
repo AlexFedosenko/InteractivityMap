@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="actionBarStyle">@style/AvoxActionBar.Solid</item>
+        <item name="android:background">@drawable/pressed_selector</item>
+    </style>
+
+    <style name="Theme.AppThemeNoActionBar" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AvoxActionBar.Solid" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/bg_ab</item>
+    </style>
+
+    <style name="avoxEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_height">@dimen/style_editText_layoutHeight</item>
+        <item name="android:textColor">@color/edt_text_color</item>
+        <item name="android:textSize">@dimen/style_editText_textSize</item>
+        <item name="android:textColorHint">@color/style_editText_textColorHint</item>
+        <item name="android:background">@drawable/edt_selector</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_shadow" parent="@android:style/TextAppearance">
+        <item name="android:shadowColor">@color/style_shadow_color</item>
+        <item name="android:shadowDx">0.7</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">0.5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

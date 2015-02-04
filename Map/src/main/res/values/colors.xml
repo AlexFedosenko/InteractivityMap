@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="listItem_markerTitle_textColor">@android:color/white</color>
+    <color name="listItem_markerDescription_textColor">#a7a7a7</color>
+
+    <!-- EditText view general colors -->
+    <!-- ////////////////////////////////////////// -->
+    <color name="edit_text_disabled">#6e6e6e</color>
+    <color name="edit_text_not_active">#c7c7c7</color>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+    <color name="style_editText_textColorHint">#d0d0d0</color>
+    <color name="style_shadow_color">#7f435763</color>
+
+</resources>

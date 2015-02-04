@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listItem_marker_layoutHeight">64dp</dimen>
+    <dimen name="listItem_markerTitle_textSize">18sp</dimen>
+    <dimen name="listItem_markerDescription_textSize">14sp</dimen>
+    <dimen name="listItem_marker_marginLeft">18dp</dimen>
+
+    <dimen name="layout_editMarker_paddingHorizontal">30dp</dimen>
+    <dimen name="edt_markerTitle_marginTop">65dp</dimen>
+    <dimen name="edt_markerDescription_marginTop">25dp</dimen>
+    <dimen name="layout_buttons_marginTop">25dp</dimen>
+    <dimen name="layout_buttons_marginBottom">25dp</dimen>
+
+    <dimen name="layout_buttons_layoutHeight">48dp</dimen>
+    <dimen name="layout_buttons_layoutWidth">120dp</dimen>
+
+    <dimen name="style_editText_textSize">15sp</dimen>
+    <dimen name="style_editText_layoutHeight">48dp</dimen>
+</resources>
